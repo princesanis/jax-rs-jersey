@@ -8,7 +8,7 @@ import com.javaee.jersey.domain.Vehicle;
 
 public class VehicleServiceImpl implements VehicleService {
 
-	private List<Vehicle> vehicles = new ArrayList<>();
+	private List<Vehicle> vehicles = new ArrayList<Vehicle>();
 	private Integer actualId = 10;
 	
 	public VehicleServiceImpl() {
